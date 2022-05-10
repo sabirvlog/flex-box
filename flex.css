@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+
+	color: white;
+	background-color: black;
+	margin: 10px auto;
+	padding-bottom: 30px;  
+	padding-top: 30px;  
+	text-align: center;
+}
+h1:hover{
+	color: white;
+	background-color: blue;
+	cursor: pointer;
+}
+.navbar{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
+.nav-list{
+	margin: 8px 7px;
+	padding: 4px  4px;
+	color: ghostwhite;
+	font-weight: bold;
+	font-size: 19px;
+}
+.nav-list:hover{
+	color: white;
+	background-color: green;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.container{
+		border: 2px solid gray;
+		padding: 10px 10px; 
+		display: flex;
+		/*flex-direction: column;*/
+		/*flex-direction: row-reverse;*/
+		/*flex-direction: row;*/   
+		/*by default the flex direction is row which means a horizontal form*/
+		/*height: 45vh;
+		width: 100%;*/
+		
+		/*justify-content: flex-end;*/
+		/*justify-content: flex-start;*/
+		/*justify-content: center;*/
+		justify-content: stretch;  /* stretch is the normal already installed function.*/
+		/*align-items: flex-start;*/
+		/*align-items: center;*/
+		/*align-items: flex-end;*/
+		justify-content: stretch;
+		margin: 10px 10px;
+
+}
+.container-1{
+	border: 2px solid gray;
+	padding: 10px 10px;
+	display: flex;
+	margin: 10px 10px;
+	/*justify-content: center;
+	align-items: center;*/
+}
+
+.container-2{
+	display: flex;
+	margin: 10px 10px;
+	border: 2px solid gray;
+	padding: 10px 10px;
+}
+
+.class-container{
+	justify-content: space-between;
+	display: flex;
+	border: 2px solid gray;
+}
+
+ .container div, .container-1 div, .container-2 div,.class-container {
+ 	    border: 2px solid black;
+		padding: 10px;
+		margin: 1px 5px;
+ }
+.box-1{
+	flex: 2;
+	order: 2;
+	background-color: orange;
+}
+ .box-2{
+ 	flex: 1;
+ 	order: 1;
+ 	background-color: springgreen;
+ }
+ .box-3{
+ 	flex: 1;
+ 	order: 3;
+ 	background-color: yellow;
+ }
+ /*....*/
+
+  .box-4{
+ 	flex: 1;
+ 	order: 6;
+ 	background-color: deeppink;
+ }
+ .box-5{
+ 	flex: 1;
+ 	order: 7;
+ 	background-color: aqua;
+ }
+  .box-6{
+ 	flex: 1;
+ 	order: 4;
+ 	background-color: chartreuse;
+ }
+ .box-7{
+ 	flex: 1;
+ 	order: 5;
+ 	background-color: blueviolet;
+ }
+/*......*/
+
+ .box-8{
+ 	
+ 	flex: 2;
+ 	order: 9;
+ 	background-color:  bisque;
+ }
+ .box-9{
+
+ 	flex: 1;
+ 	order: 8;
+ 	background-color: #937220;
+ }
+ .box-10{
+
+ 	flex: 1;
+ 	order: 10;
+ 	background-color:  aliceblue;
+ }
+ /*.....*/
+ .class-container-2{
+ 	width: 30%;
+ 	border: 1px solid black;
+ 	margin: 10px 9px;
+	padding: 16px 16px;
+	background-color: lightgreen;
+ }
+ .h3{
+ 	background: fuchsia;
+    color: white;
+ }
+
+ .footer{
+ 	background-color: darkgray;
+ 	color: green;
+ 	font-size: 25px;
+ 	font-family: serif;
+ 	font-weight: bolder;
+ }
+ .footer marquee{
+ 	margin: 15px auto; 	
+ 	padding: 13px auto;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .footer marquee:hover{
+ 		color: blue;
+ 		cursor: pointer;
+ }
+
+.bg{
+	background-image:  url(image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+ 
